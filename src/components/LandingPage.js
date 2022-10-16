@@ -2,7 +2,7 @@ import React,{useEffect,useState} from 'react'
 import { Box,Grid } from '@mui/material'
 import Navbar from './Navbar'
 import Filter from './Filter'
-import Loading from '../utlis/Loading'
+import Loading from '../utils/Loading'
 import Videogrid from './Videogrid'
 import axios from 'axios';
 import { config } from '../App'

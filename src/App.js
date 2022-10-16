@@ -6,7 +6,7 @@ import {
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LandingPage from "./components/LandingPage";
 import VideoPage from "./components/VideoPage";
-import ScrollToTop from "./utlis/ScrollToTop";
+import ScrollToTop from "./utils/ScrollToTop";
 
 
 const theme = createTheme({

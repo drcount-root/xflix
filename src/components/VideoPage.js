@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Box, Typography, Button, Stack } from "@mui/material";
-import Loading from "../utlis/Loading";
+import Loading from "../utils/Loading";
 import axios from "axios";
 import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 import ThumbDownIcon from "@mui/icons-material/ThumbDown";
-import { TimeFormat } from "../utlis/TimeFormat";
+import { TimeFormat } from "../utils/TimeFormat";
 import { useSnackbar } from "notistack";
 import { config } from "../App";
 import LandingPage from "./LandingPage";

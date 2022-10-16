@@ -7,7 +7,7 @@ import {
     CardContent,
 } from "@mui/material"
 import { Link } from "react-router-dom";
-import { TimeFormat } from '../utlis/TimeFormat';
+import { TimeFormat } from '../utils/TimeFormat';
 
 const Videogrid = ({ video,sortBy }) => {
   return (
